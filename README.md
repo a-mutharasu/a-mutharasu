@@ -240,11 +240,17 @@ High-throughput scraping infrastructure
 
 ## 💎 Open Source
 
-<a href="https://github.com/typesense/typesense/issues/2638">
+<a href="https://github.com/typesense/typesense">
 <img src="https://github-readme-stats-ten-olive-80.vercel.app/api/pin/?username=typesense&repo=typesense&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2EA043&icon_color=2EA043" />
 </a>
 
-> **Issue #2638** — Diagnosed Raft consensus thread starvation during 228K document bulk inserts. Proposed decoupled health endpoints and configurable write backpressure.
+**Merged contributor — 2 PRs shipped into a 26K+ ⭐ C++ codebase**
+
+> **[PR #3011](https://github.com/typesense/typesense/pull/3011)** `merged` — Added `mode: sum` to `_eval` sort scoring. Expressing an additive ranking model previously required enumerating every combination (`2ⁿ - 1` rules — 15 for 4 signals); it now needs `n`. Included parser disambiguation against existing filter syntax and `__int128` overflow accumulation.
+
+> **[PR #3010](https://github.com/typesense/typesense/pull/3010)** `merged` — Root-caused non-deterministic result ordering: three identical requests returned three different orders with no error. A cursor vector shared across sort clauses was reading past its allocation. Fixed by keying cursors per sort-field index, with a regression test.
+
+> **[Issue #2638](https://github.com/typesense/typesense/issues/2638)** `reported` — Diagnosed Raft consensus thread starvation during 228K document bulk inserts. Proposed decoupled health endpoints and configurable write backpressure.
 
 <br/>
 
