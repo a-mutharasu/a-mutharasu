@@ -92,7 +92,7 @@ High-throughput scraping infrastructure
 <td width="50%" valign="top">
 
 **🔀 Open Source — Typesense (26K+ ⭐, C++)**
-*Merged contributor · 2 PRs shipped*
+*Merged contributor ·  3 PRs shipped*
 
 **[#3010](https://github.com/typesense/typesense/pull/3010) — Non-deterministic sort ordering** `merged`
 - 3 identical requests → 3 different orderings, no error
@@ -104,7 +104,7 @@ High-throughput scraping infrastructure
 - 4 signals: 15 rules → 4
 - Parser disambiguation vs existing filter syntax; `__int128` overflow accumulation
 
-**[#2638](https://github.com/typesense/typesense/issues/2638) — Raft thread starvation** `reported`
+**[#2638](https://github.com/typesense/typesense/issues/2638) — Raft thread starvation** `reported` and `fixed`
 - Write queue blocking `/health` & `/search` during 228K bulk inserts
 - Proposed decoupled health endpoints + backpressure
 
@@ -244,7 +244,7 @@ High-throughput scraping infrastructure
 <img src="https://github-readme-stats-ten-olive-80.vercel.app/api/pin/?username=typesense&repo=typesense&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2EA043&icon_color=2EA043" />
 </a>
 
-**Merged contributor — 2 PRs shipped into a 26K+ ⭐ C++ codebase**
+**Merged contributor — 3 PRs shipped into a 26K+ ⭐ C++ codebase**
 
 > **[PR #3011](https://github.com/typesense/typesense/pull/3011)** `merged` — Added `mode: sum` to `_eval` sort scoring. Expressing an additive ranking model previously required enumerating every combination (`2ⁿ - 1` rules — 15 for 4 signals); it now needs `n`. Included parser disambiguation against existing filter syntax and `__int128` overflow accumulation.
 
