@@ -250,7 +250,7 @@ High-throughput scraping infrastructure
 
 > **[PR #3010](https://github.com/typesense/typesense/pull/3010)** `merged` — Root-caused non-deterministic result ordering: three identical requests returned three different orders with no error. A cursor vector shared across sort clauses was reading past its allocation. Fixed by keying cursors per sort-field index, with a regression test.
 
-> **[Issue #2638](https://github.com/typesense/typesense/issues/2638)** `reported` — Diagnosed Raft consensus thread starvation during 228K document bulk inserts. Proposed decoupled health endpoints and configurable write backpressure.
+> **[Issue #2638](https://github.com/typesense/typesense/issues/2638)** `reported and fixed` — Diagnosed Raft consensus thread starvation during 228K document bulk inserts. Proposed decoupled health endpoints and configurable write backpressure.
 
 <br/>
 
