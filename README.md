@@ -88,16 +88,25 @@ High-throughput scraping infrastructure
 - Rate limiting & anti-detection strategies
 
 </td>
+</td>
 <td width="50%" valign="top">
 
-**🔍 Open Source — Typesense [#2638](https://github.com/typesense/typesense/issues/2638)**
+**🔀 Open Source — Typesense (26K+ ⭐, C++)**
+*Merged contributor · 2 PRs shipped*
 
-Diagnosed critical issue in **25K+ ⭐ project**
+**[#3010](https://github.com/typesense/typesense/pull/3010) — Non-deterministic sort ordering** `merged`
+- 3 identical requests → 3 different orderings, no error
+- Cursor vector shared across sort clauses read past its allocation
+- Fixed with per-clause cursor keying + regression test
 
-- **Raft consensus** thread starvation · 228K bulk inserts
-- Write queue blocking `/health` & `/search` APIs
+**[#3011](https://github.com/typesense/typesense/pull/3011) — `mode: sum` for `_eval`** `merged`
+- Additive ranking needed `2ⁿ - 1` rules → now needs `n`
+- 4 signals: 15 rules → 4
+- Parser disambiguation vs existing filter syntax; `__int128` overflow accumulation
+
+**[#2638](https://github.com/typesense/typesense/issues/2638) — Raft thread starvation** `reported`
+- Write queue blocking `/health` & `/search` during 228K bulk inserts
 - Proposed decoupled health endpoints + backpressure
-- Systems-level debugging at consensus layer
 
 </td>
 </tr>
