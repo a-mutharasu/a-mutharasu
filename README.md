@@ -14,7 +14,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=MutharasuArchunan13&color=2EA043&style=flat-square&label=Profile+Views"/>
+<img src="https://komarev.com/ghpvc/?username=a-mutharasu&color=2EA043&style=flat-square&label=Profile+Views"/>
 
 </div>
 
@@ -223,15 +223,15 @@ High-throughput scraping infrastructure
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=MutharasuArchunan13&theme=github-dark-blue&hide_border=true&ring=2EA043&fire=2EA043&currStreakLabel=2EA043&sideNums=F0F6FC&sideLabels=8B949E&dates=6E7681&stroke=21262D&background=0D1117" width="52%"/>
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=a-mutharasu&theme=github-dark-blue&hide_border=true&ring=2EA043&fire=2EA043&currStreakLabel=2EA043&sideNums=F0F6FC&sideLabels=8B949E&dates=6E7681&stroke=21262D&background=0D1117" width="52%"/>
 
 <br/>
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MutharasuArchunan13/MutharasuArchunan13/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MutharasuArchunan13/MutharasuArchunan13/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/MutharasuArchunan13/MutharasuArchunan13/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/a-mutharasu/a-mutharasu/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/a-mutharasu/a-mutharasu/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/a-mutharasu/a-mutharasu/output/github-snake-dark.svg" />
 </picture>
 
 </div>
