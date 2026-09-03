@@ -8,8 +8,8 @@
 
 <br/>
 
-<a href="https://linkedin.com/in/mutharasu-a-90638823b"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="https://github.com/MutharasuArchunan13"><img src="https://img.shields.io/badge/-GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
+<a href="https://linkedin.com/in/a-mutharasu"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
+<a href="https://github.com/a-mutharasu"><img src="https://img.shields.io/badge/-GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
 <a href="https://github.com/typesense/typesense/issues/2638"><img src="https://img.shields.io/badge/OSS-Typesense_Contributor-E5534B?style=for-the-badge&logo=github"/></a>
 
 <br/>
