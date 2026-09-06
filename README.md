@@ -28,7 +28,7 @@ class Mutharasu:
     role       = "Senior Software Engineer"
     company    = "10xScale.ai"
     location   = "Hyderabad, India"
-    languages  = ["Python", "Java", "JavaScript", "SQL","Typescript","C","Rust"]
+    languages  = ["Python", "Java", "JavaScript", "SQL","Typescript","C","Rust","c++"]
     
     architect_of = {
         "Identity Provider": "Centralized OAuth 2.0 + OIDC → 5 products",
